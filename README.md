@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/achraftouati2022/operationalize-a-machine-learning-microservice-API/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/achraftouati2022/operationalize-a-machine-learning-microservice-API/tree/main)
 
 ## Project Overview
 
