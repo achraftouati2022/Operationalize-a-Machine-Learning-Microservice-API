@@ -20,7 +20,19 @@ Your project goal is to operationalize this working, machine learning microservi
 You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
+## Short description of folders and files in the repo
 
+.circleci: contains the config.yml for the CircleCI build server
+output_txt_files: contains output logs from running ./run_docker.sh and ./run_kubernetes.sh
+app.py : contains the flask app source code
+Dockerfile: contains all the commands a user could call on the command line to assemble a docker image
+Makefile : contains instructions for environment setup and lint tests
+requirements.txt: contains the list of all required dependencies
+run_docker.sh: used to run the application locally in a Docker container
+upload_docker.sh: used to upload the built docker image to Dockerhub
+run_kubernetes.sh: used to run the application locally in a Kubernetes cluster
+make_prediction.sh: used to make predictions 
+README.md: this README file
 ---
 
 ## Setup the Environment
